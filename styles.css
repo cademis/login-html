@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  height: 100vh;
+}
+
+body div {
+  width: 50%;
+}
+
+.left-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+}
+
+.signup-form {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-form div {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
