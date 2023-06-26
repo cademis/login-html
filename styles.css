@@ -1,6 +1,12 @@
+@font-face {
+  font-family: JapaneseBrush;
+  src: url(fonts/JAPAB.TTF);
+}
+
 body {
   display: flex;
   height: 100vh;
+  font-family: JapaneseBrush;
 }
 
 body div {
