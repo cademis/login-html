@@ -1,12 +1,11 @@
 @font-face {
-  font-family: JapaneseBrush;
-  src: url(fonts/JAPAB.TTF);
+  font-family: NorseBold;
+  src: url(fonts/Norse-Bold.otf);
 }
 
 body {
   display: flex;
   height: 100vh;
-  font-family: JapaneseBrush;
 }
 
 body div {
@@ -22,6 +21,7 @@ body div {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
+  font-family: NorseBold;
 }
 
 .signup-form {
@@ -34,6 +34,8 @@ body div {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .signup-form div {
